@@ -12,7 +12,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 public class StudentsIntegrationTest {
 
     @Autowired
-clprivate MockMvc mockMvc;
+    private MockMvc mockMvc;
 
     @Test
     public void testGetStudentsEndpoint() throws Exception {
